@@ -18,7 +18,7 @@ Jogo desenvolvido utilizando Unity e C#.
 <!---
 Aqui sugere-se que sejam colocados ao menos os nomes de cada desenvolvedor envolvido na criação do seu jogo
 --->
-- [Arthur](https://github.com/amosribeiroc)
-- [Eliás](https://github.com/eliasyousef00)
+- [Arthur Melo](https://github.com/ArthurMeloG)
+- [Eliás Yousef](https://github.com/eliasyousef00)
 - [João Victor](https://github.com/jvcalassio)
 - [Rodrigo Balbino](https://github.com/balbinoo)
