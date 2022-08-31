@@ -1,0 +1,3854 @@
+fileFormatVersion: 2
+guid: 76ee69b4304643c49bf59296ccab4af2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: woodpecker_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1080
+        width: 30
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00d43ec3732192449486b5cbd15977b
+      internalID: 174444878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1080
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6d0094305efab4f8a46e8c90c99beb
+      internalID: 1403324077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_2
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1080
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e208327a91608f429907fdcf9cc2663
+      internalID: -1226782736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1080
+        width: 35
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3cfdc5af339f5e45af0814a416c56ba
+      internalID: 1006438641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_4
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1080
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c21a837cc406f4c8fdfeed7b8b7cc5
+      internalID: -1977029613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_5
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1080
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a03c4523e8c5e49b4dc90a08b04962
+      internalID: 611778962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_6
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1080
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f85dcb52aef714e991c421f45045a1
+      internalID: 751621283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_7
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1080
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df49900ae9453e64fa2d8e95ef8133f8
+      internalID: -1347113382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_8
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1080
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4ec0609ac5bd04aa2a176465c3cfc8
+      internalID: -432633266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_9
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1080
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b85964f721127b4181b13fa95bd20a5
+      internalID: -783815123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_10
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1080
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72fda56b26f66e7428a7177c7ea10f58
+      internalID: -2128699140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_11
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1080
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7807fc4b1b42264696659c8802f8b5f
+      internalID: 397568431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_12
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1000
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22ab7b4e6aee66469ff20c944fdd47f
+      internalID: 1545942450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_13
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1000
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311cb7ced7475d04ba688d59b434c21c
+      internalID: 1219425758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_14
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1000
+        width: 64
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d046191ecd93645b9f315656b2ae20
+      internalID: 888369942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_15
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1000
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6876a91f17bc1fb40adbe04ba6933f43
+      internalID: -520506723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_16
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1000
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc819552d4ba2d7468a23853a70f326f
+      internalID: -47764528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_17
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1000
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72120a2a0dff5fd4980ac279a8e85cdc
+      internalID: 1963938532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_18
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1000
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53828e11acd7984680904b92ac7563a
+      internalID: 321088258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_19
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1000
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e96b9e98bf4f44fb7ad2769bc92867
+      internalID: 1503562764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_20
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1001
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e521529657aa5e44d90d337c9a1c9b04
+      internalID: 1433225259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_21
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1000
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57fe85784e3b6447a6b0222874cfb52
+      internalID: -1739799387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_22
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 928
+        width: 30
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42da92bb693008c4f89a031e018806ae
+      internalID: -821979583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_23
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 928
+        width: 27
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3d7b9ae071d6141a8014d92d3355c5
+      internalID: 504119242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_24
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 928
+        width: 35
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eec8d8fab9deb240b7ee6b2e8699af7
+      internalID: -169047251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_25
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 928
+        width: 35
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2975a321281231445926853873ea196f
+      internalID: 887534350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_26
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 928
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9bf6d105514f9f498ef8176c6e3b3e7
+      internalID: 1428725066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_27
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 928
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1a39266991747438e81ad0ece4df13
+      internalID: 359684086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_28
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 928
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7655c25927fefa249acb7a5aa033a81f
+      internalID: -1889920410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_29
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 928
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02cdcb29aa888d64a8da0eca6b17a8e3
+      internalID: 2051704030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_30
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 928
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb1ac59ce3b18d4387fd9e35ede5116
+      internalID: -1798804452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_31
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 928
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc8e50374dac3045892a8bf7a5ef407
+      internalID: 2037147480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_32
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 928
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ebfc95135af6474dae18a04f675af57
+      internalID: 153873760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_33
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 928
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 718ca85b241cdff49ae57e5172ab1621
+      internalID: 854003179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_34
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 928
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3bb16649fd571142b0eaf5914e38a45
+      internalID: -1680166100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_35
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 928
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebce2c3b59547c4eb22eb19f0b4a1f4
+      internalID: 1790243344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_36
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 862
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a2a03de968a9e46919baa15ab38468
+      internalID: 1352850188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_37
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 859
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7fdfd5686ff08b409dbf6e5f1ae01f6
+      internalID: 764635164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_38
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 860
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c289b9de96cc83479f2e4c1b6362cd0
+      internalID: 1000252981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_39
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 866
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f045109f103694040be44946567bc2bd
+      internalID: 1304472967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_40
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 856
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5825eec02831c52449bb66faed183016
+      internalID: -2118916343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_41
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 856
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d5641f4d584e841a0ba17b1da9ec6e
+      internalID: 609605763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_42
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 856
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc2172a77b51c04e9baac88f2e93470
+      internalID: 1318213692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_43
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 856
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175c66ab91d0e9446a92adf91c08c32d
+      internalID: 951342347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_44
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 856
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f50dcfad7081d48ac66dae70b86009
+      internalID: -1392703964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_45
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 856
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc375a125f28dc4abb962d54309394b
+      internalID: 676020340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_46
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 856
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b761351b0d96b4e97e721892108a22
+      internalID: -360123261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_47
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 856
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e1336fa703e424a83e76897a60c4cf
+      internalID: -277883833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_48
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 856
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9e63f56b06f7242aac20164fa0d974
+      internalID: -819839033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_49
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 856
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e061a405ba92ea449b973c4ca2fdfbbd
+      internalID: 1746919786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_50
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 856
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c264cd8fcd9290448040f2caf23f103
+      internalID: 1830928225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_51
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 856
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7560e480e8aed934bb05f18ebc5d8f03
+      internalID: 102451097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_52
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 857
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827c6999f27072a49bd74a975d65a995
+      internalID: 1620035855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_53
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 784
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926dd1429c481c14ca6ef4132b8b13e9
+      internalID: 744065458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_54
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 784
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d81a8640a373849a348459985b2e50
+      internalID: -730339927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_55
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 784
+        width: 49
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cafc8f1c565b50947a27cc8a14d9e6f0
+      internalID: 1468390395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_56
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 786
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719774192e43ee6429fb15352f7e13c3
+      internalID: -55477495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_57
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 784
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576cfbee0f0ef1d439944ff498fd9d96
+      internalID: -374580081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_58
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 784
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624a2717d0e534142a9a535eed3f2768
+      internalID: 716502847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_59
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 784
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3adae2fc7b217ea45a5210b3eb2d0aa1
+      internalID: -759698641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_60
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 784
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3645c28efab66df459642d5025017830
+      internalID: 785249579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_61
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 784
+        width: 41
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca862246374b3cc45b3338313021ddea
+      internalID: 1103647805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_62
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 784
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216d50d4adfedf34f9b2d1adcceb4389
+      internalID: 762832751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_63
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 784
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0809b24bda45de4a8fffbc89a874406
+      internalID: 2062262926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_64
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 784
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179c0376cc7b76b4d81647f3ae358aa0
+      internalID: -329686886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_65
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 784
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f186510526bf46247b058cbbfd6ef55d
+      internalID: 1591886557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_66
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 720
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6653641c4d5ec3849b4bb3736829fae6
+      internalID: -1975190391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_67
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 720
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b692805b2378947ae8ff82343fa635
+      internalID: 299894522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_68
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 720
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43063a3d8d70ebf4f895d7487efd6736
+      internalID: 851412864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_69
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 720
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518c8c6cc567e424cac4b0877b4d3f26
+      internalID: 348691126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_70
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 720
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9f3a4b4ee8a8e41ba1e69a4aefbead
+      internalID: 1217490562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_71
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 720
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ba52275a214ba449b37ca5c0c39300
+      internalID: -1666648758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_72
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 720
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ff564be2e560246b70d14971bd7e4d
+      internalID: -1474824149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_73
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 720
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e68a583e419a9468855c923954df3e
+      internalID: -516152335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_74
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 656
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04fced67de06506409cccc114de349d8
+      internalID: 1621479505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_75
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 656
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670688bd9ee1ed64e83554caeee68de8
+      internalID: 226746255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_76
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 656
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949a581f65e54b248822947b40fba7dd
+      internalID: 356651335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_77
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 656
+        width: 56
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eecdac1f35d66e4e88196b6fe639514
+      internalID: 1545341740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_78
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 656
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57dddd20dd182a4681137f1305a94fb
+      internalID: -1901669189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_79
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 656
+        width: 55
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a625526edd8c4e40a24034265f28b29
+      internalID: -56759519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_80
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 656
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a6ccb3ab3f9e54592c30eafe4ec0de
+      internalID: -1807235589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_81
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 584
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efaf63ac3f2154645998d3765ad25f15
+      internalID: -1883750511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_82
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 584
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eea39044aadf3d408e5940202126f4b
+      internalID: 1210449211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_83
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 584
+        width: 35
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04585b983e5e0104495f79a25c833d82
+      internalID: -1331448718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_84
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 584
+        width: 52
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c222402d08539b346b5c9b62827800dc
+      internalID: -2109594662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_85
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 584
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe41cc0f66a2ff4c8fde2443b55bd2e
+      internalID: 1456997334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_86
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 584
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611772af841c0d4498a5c8524b7df754
+      internalID: -1534345761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_87
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 584
+        width: 43
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7032962c2756f5f498d5ee49ba5e7f2a
+      internalID: -624355001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_88
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 584
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5061862250ceb0c4390729179da003b8
+      internalID: -436131486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_89
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 584
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc5bc3a9644c7841a8bcf2a123bd51e
+      internalID: 1612606279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_90
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 520
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e260e7556a626ea4b856123420415f26
+      internalID: -436100099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_91
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 520
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59209599e9c7d18418c1e51edea728eb
+      internalID: -180194633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_92
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 520
+        width: 56
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67613c8b081e70418520752ebc2e86c
+      internalID: 1140752097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_93
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 520
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ab4ceaef8b0b84aa656dc29424ac29
+      internalID: 1965169929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_94
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 520
+        width: 48
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a27be5b19d21447b997bff8c967189
+      internalID: -1277618096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_95
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 520
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e1e2a5a137e854f88fad56c8d5032e
+      internalID: -1351115240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_96
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 520
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3085d4e0501facb498349757c1c1a357
+      internalID: -543929205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_97
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 520
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4830259393ac03469b734db09008de5
+      internalID: 458713924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_98
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 520
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8505fd93223fea44d9471f6bf825b512
+      internalID: -1688952884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_99
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 448
+        width: 79
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde3e894e1d62c741aad29e8c7bf824c
+      internalID: 553399252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_100
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 448
+        width: 79
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9a55c9c92a14844b55b57797a30c9f
+      internalID: -554003758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_101
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 448
+        width: 108
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e842abfaf113ee748a63a2e1689dcb38
+      internalID: -513324769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_102
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 448
+        width: 118
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b67d759818d6ad428c85706fdfb5b97
+      internalID: -306994711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_103
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 368
+        width: 79
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed479fbc8f9a444ab6914ca1532e08e
+      internalID: 802458315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_104
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 368
+        width: 79
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: decf46d826b511842908f0dcea15d5b2
+      internalID: 737195511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_105
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 368
+        width: 79
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c605f229e9509284d8ece31f7fd97794
+      internalID: -574852868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_106
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 368
+        width: 79
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868f17a5f564d87468db92d0cc4f0c4c
+      internalID: -1321566203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_107
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 296
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb99f15be1a5f454485516a84d3d15fc
+      internalID: -419288131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_108
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 296
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d94befc46f91914d97f07da0fe15c41
+      internalID: 926583199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_109
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 296
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb237b1892b8f74ebda496c467bbaf3
+      internalID: 1015120883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_110
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 296
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54b8cb76e014f04d87d4f5b80a7e840
+      internalID: 1685972445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_111
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 296
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03e91c9167301a4faec7851c212821b
+      internalID: 919259812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_112
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 296
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3515ec6ab9d6334689c0771c0accc7b
+      internalID: 33349230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_113
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 296
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab75b8ad21ee17947b549b0e50ad4d79
+      internalID: -1700238098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_114
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 336
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423b65d0b54202c4985d925edc89dae4
+      internalID: -1021424625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_115
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 333
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19538adbea86e114b91663d4fcf03d21
+      internalID: 447804819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_116
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 327
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f63064ac2bf2e4aaef224356d956ac
+      internalID: -1644235266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_117
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 330
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8afac75b1e4ba44f9bb1f22b11e738e
+      internalID: -2014269559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_118
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 296
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863b97e79db9b6247a1e7ff96facc7d2
+      internalID: 1692631492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_119
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 296
+        width: 54
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0157e99f51d950449983d07d40d4f571
+      internalID: -1363410116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_120
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 328
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7cf19a8ebf91ef46b496e95c3361f44
+      internalID: 1637206595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_121
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 296
+        width: 52
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d3b18db206c9f4b9234aa49cb4f5dd
+      internalID: -1328398622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_122
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 224
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237e8f81535e98d4caea3b2507893f47
+      internalID: 657854947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_123
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3902b3402efc13439edb3bda31a74dd
+      internalID: 1724576857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_124
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 44
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3d34a9bc7c91e48929451c0a7ccf2b
+      internalID: 269674767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_125
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 224
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c76ff74db5f8a645a230f769cca0f66
+      internalID: -91645182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_126
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a74bdc272ad8564aa0d1e83b5cdd84b
+      internalID: -540400404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_127
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 270
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a80761e4c1dcf4484d83c92b7c408e
+      internalID: -2101670838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_128
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 254
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01af346b41baeb34580616cce40e3fbd
+      internalID: 1670028147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_129
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 262
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e47a8599ebcbb540bbeea317622a105
+      internalID: 1894983548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_130
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 264
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa23435a5f185949af6e49c96a209a3
+      internalID: 2065603421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_131
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 251
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bddfb6e0815c19b4b8cc23c05ce62c03
+      internalID: -131741099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_132
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 257
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a23e5fc6df00bd41b58b476a3380730
+      internalID: -307106932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_133
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 160
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc247bb0f46eaf4984c36eac56f5c8b
+      internalID: -1552830196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_134
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 160
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e4e6ff4bf022247ae25b2f83340fb7
+      internalID: -1427953924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_135
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa42af5f18ebb44fad3dff0b0dd4b0e
+      internalID: -1554484542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_136
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 160
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39612745129886d459e63e70c6e261c8
+      internalID: -1726446813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_137
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 160
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db6353ae519d164da49e7ae6508a39f
+      internalID: -1306984384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_138
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f29ae76a56072449b91df9c7b70719f
+      internalID: 1754678718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_139
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 160
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6c683a9bae3d340b0c02ca2e57981d
+      internalID: 482790283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_140
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 160
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e65e1ca4e7bcad46ac0abedff5aa21b
+      internalID: -2051352760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_141
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 160
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f80c2b62cca8c49b45ae6a4740628b
+      internalID: 1318926038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_142
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 160
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa357912f77cbe64da7d843a143efaab
+      internalID: -1335972596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_143
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 88
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2982db1294ed6d40b818f5e5fde81ea
+      internalID: 962654389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_144
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 88
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7937e45b91d1775439105bb8a0bd9dce
+      internalID: 724854223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_145
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 88
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f192185aa13a94385e0486e1ea4dcf
+      internalID: 1152875585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_146
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 88
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd3bdc55679fc9449b6a622d6351168
+      internalID: -1673967049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_147
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 88
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2c0201c104d1a47aac42728714f83f
+      internalID: 1383688260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_148
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 88
+        width: 43
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a225d1f10f11044bf2a30c6dd73a5b
+      internalID: -833049289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_149
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 88
+        width: 31
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce091937ae0cf054b993847e9618cfac
+      internalID: -2069354200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_150
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 88
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b58f15a601cc3746b1d473a67397196
+      internalID: -364826274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_151
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 8
+        width: 54
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8b856ba9a9c164da9e2dd6b245ff1e
+      internalID: -1744067896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_152
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 8
+        width: 54
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9812bd6154972af4dbe0f67d732c5961
+      internalID: 284523486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_153
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 8
+        width: 47
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb5d937c500a2740b28b666e21f50d7
+      internalID: 1011369614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_154
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 25
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ad1a5a9f57adf4c8308f39a9c29029
+      internalID: -1462159525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_155
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 11
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf958004f9b1574bbda09aed8c71da2
+      internalID: -1060682468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_156
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 8
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0e4fef89784ad488e30175f830e29b
+      internalID: 1029738346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_157
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 8
+        width: 47
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c535cd44cc015554b87556582df89424
+      internalID: -1313169347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_158
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 8
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f970ee7606d63429344b035fb9b3be
+      internalID: -768907290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_159
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 19
+        width: 4
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c94345be895234d905a15b3f83debd
+      internalID: 1851592166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_160
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 9
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49c4c9e15450dd4b974b91768a891a7
+      internalID: -504502657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_161
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 8
+        width: 54
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f272df6e3698941a490fda4e9c8df0
+      internalID: -1501174365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_162
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 8
+        width: 54
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508a765c8b85d9c4f90c60c2639ab409
+      internalID: 508604100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_163
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 20
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d46c78271eec74fbc25b81e372c3c2
+      internalID: -547284205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_164
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 13
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3793c8ffd66ba3b449bea68b6739f146
+      internalID: 1594143832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_165
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 8
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70b64a35c60b9349a27a87907221f3d
+      internalID: 367400796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_166
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 9
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2828eba282440c64f9761724d83548dc
+      internalID: 1670446236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_167
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 8
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9175eb05bcfca104096ba810d34dc4cf
+      internalID: 1565005779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_168
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 9
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a01f5e65be8a49498bf4a6c547d1347
+      internalID: 899875975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodpecker_169
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 8
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf48506e47521641ad231d37d503410
+      internalID: -183275125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      woodpecker_26: 1428725066
+      woodpecker_169: -183275125
+      woodpecker_27: 359684086
+      woodpecker_21: -1739799387
+      woodpecker_37: 764635164
+      woodpecker_165: 367400796
+      woodpecker_16: -47764528
+      woodpecker_79: -56759519
+      woodpecker_114: -1021424625
+      woodpecker_168: 899875975
+      woodpecker_146: -1673967049
+      woodpecker_30: -1798804452
+      woodpecker_10: -2128699140
+      woodpecker_85: 1456997334
+      woodpecker_91: -180194633
+      woodpecker_15: -520506723
+      woodpecker_82: 1210449211
+      woodpecker_52: 1620035855
+      woodpecker_77: 1545341740
+      woodpecker_68: 851412864
+      woodpecker_29: 2051704030
+      woodpecker_137: -1306984384
+      woodpecker_150: -364826274
+      woodpecker_112: 33349230
+      woodpecker_24: -169047251
+      woodpecker_123: 1724576857
+      woodpecker_71: -1666648758
+      woodpecker_59: -759698641
+      woodpecker_99: 553399252
+      woodpecker_101: -513324769
+      woodpecker_153: 1011369614
+      woodpecker_90: -436100099
+      woodpecker_162: 508604100
+      woodpecker_135: -1554484542
+      woodpecker_42: 1318213692
+      woodpecker_121: -1328398622
+      woodpecker_23: 504119242
+      woodpecker_33: 854003179
+      woodpecker_1: 1403324077
+      woodpecker_144: 724854223
+      woodpecker_8: -432633266
+      woodpecker_56: -55477495
+      woodpecker_119: -1363410116
+      woodpecker_34: -1680166100
+      woodpecker_31: 2037147480
+      woodpecker_130: 2065603421
+      woodpecker_104: 737195511
+      woodpecker_20: 1433225259
+      woodpecker_152: 284523486
+      woodpecker_118: 1692631492
+      woodpecker_126: -540400404
+      woodpecker_66: -1975190391
+      woodpecker_9: -783815123
+      woodpecker_48: -819839033
+      woodpecker_6: 751621283
+      woodpecker_120: 1637206595
+      woodpecker_60: 785249579
+      woodpecker_72: -1474824149
+      woodpecker_67: 299894522
+      woodpecker_134: -1427953924
+      woodpecker_87: -624355001
+      woodpecker_143: 962654389
+      woodpecker_103: 802458315
+      woodpecker_11: 397568431
+      woodpecker_47: -277883833
+      woodpecker_154: -1462159525
+      woodpecker_131: -131741099
+      woodpecker_148: -833049289
+      woodpecker_100: -554003758
+      woodpecker_106: -1321566203
+      woodpecker_108: 926583199
+      woodpecker_32: 153873760
+      woodpecker_138: 1754678718
+      woodpecker_159: 1851592166
+      woodpecker_156: 1029738346
+      woodpecker_166: 1670446236
+      woodpecker_88: -436131486
+      woodpecker_7: -1347113382
+      woodpecker_13: 1219425758
+      woodpecker_54: -730339927
+      woodpecker_19: 1503562764
+      woodpecker_35: 1790243344
+      woodpecker_74: 1621479505
+      woodpecker_140: -2051352760
+      woodpecker_63: 2062262926
+      woodpecker_141: 1318926038
+      woodpecker_40: -2118916343
+      woodpecker_17: 1963938532
+      woodpecker_28: -1889920410
+      woodpecker_38: 1000252981
+      woodpecker_76: 356651335
+      woodpecker_78: -1901669189
+      woodpecker_160: -504502657
+      woodpecker_149: -2069354200
+      woodpecker_151: -1744067896
+      woodpecker_0: 174444878
+      woodpecker_128: 1670028147
+      woodpecker_89: 1612606279
+      woodpecker_41: 609605763
+      woodpecker_2: -1226782736
+      woodpecker_5: 611778962
+      woodpecker_36: 1352850188
+      woodpecker_75: 226746255
+      woodpecker_163: -547284205
+      woodpecker_94: -1277618096
+      woodpecker_115: 447804819
+      woodpecker_58: 716502847
+      woodpecker_105: -574852868
+      woodpecker_70: 1217490562
+      woodpecker_155: -1060682468
+      woodpecker_122: 657854947
+      woodpecker_62: 762832751
+      woodpecker_12: 1545942450
+      woodpecker_49: 1746919786
+      woodpecker_117: -2014269559
+      woodpecker_136: -1726446813
+      woodpecker_161: -1501174365
+      woodpecker_57: -374580081
+      woodpecker_3: 1006438641
+      woodpecker_125: -91645182
+      woodpecker_147: 1383688260
+      woodpecker_51: 102451097
+      woodpecker_113: -1700238098
+      woodpecker_97: 458713924
+      woodpecker_69: 348691126
+      woodpecker_81: -1883750511
+      woodpecker_61: 1103647805
+      woodpecker_84: -2109594662
+      woodpecker_124: 269674767
+      woodpecker_110: 1685972445
+      woodpecker_129: 1894983548
+      woodpecker_157: -1313169347
+      woodpecker_45: 676020340
+      woodpecker_98: -1688952884
+      woodpecker_25: 887534350
+      woodpecker_46: -360123261
+      woodpecker_142: -1335972596
+      woodpecker_111: 919259812
+      woodpecker_43: 951342347
+      woodpecker_55: 1468390395
+      woodpecker_39: 1304472967
+      woodpecker_109: 1015120883
+      woodpecker_96: -543929205
+      woodpecker_132: -307106932
+      woodpecker_83: -1331448718
+      woodpecker_53: 744065458
+      woodpecker_4: -1977029613
+      woodpecker_145: 1152875585
+      woodpecker_116: -1644235266
+      woodpecker_107: -419288131
+      woodpecker_18: 321088258
+      woodpecker_64: -329686886
+      woodpecker_102: -306994711
+      woodpecker_44: -1392703964
+      woodpecker_164: 1594143832
+      woodpecker_167: 1565005779
+      woodpecker_65: 1591886557
+      woodpecker_93: 1965169929
+      woodpecker_92: 1140752097
+      woodpecker_22: -821979583
+      woodpecker_73: -516152335
+      woodpecker_95: -1351115240
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
