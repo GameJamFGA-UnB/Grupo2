@@ -8,8 +8,12 @@ public class PlayerScript : MonoBehaviour
     private Animator animator;
     private SpriteRenderer renderer;
     private int speed = 10;
+
+    private int cakeSpeed = 20;
     private bool isJumping = false;
     private bool doubleJump = false;
+
+    private GameObject cake;
 
     // Start is called before the first frame update
     void Start()
@@ -17,6 +21,7 @@ public class PlayerScript : MonoBehaviour
         rb2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         renderer = GetComponent<SpriteRenderer>();
+        cake = GameObject.Find("Cake");
     }
 
     // Update is called once per frame
@@ -24,10 +29,25 @@ public class PlayerScript : MonoBehaviour
     {
         move();
         jump();
+        spawnCake();
     }
 
     void FixedUpdate() {
         dieOutOfBounds();
+    }
+
+    void spawnCake() {
+        if (Input.GetKeyDown(KeyCode.Space)) {
+            Vector3 cakePos = new Vector3(0.3f, 0, 0);
+            Vector2 cakeVel = new Vector2(cakeSpeed, 0);
+            if (renderer.flipX) {
+                cakePos *= -1;
+                cakeVel *= -1;
+            }
+
+            GameObject ck = Instantiate(cake, transform.position + cakePos, cake.transform.rotation);
+            ck.GetComponent<Rigidbody2D>().velocity = cakeVel;
+        }
     }
 
     void move(){
@@ -43,7 +63,14 @@ public class PlayerScript : MonoBehaviour
         } else if (movement.x < 0) {
             renderer.flipX = true;
         }
-        transform.position +=  movement * Time.deltaTime * speed;
+
+        if (transform.position.x > 18.4f) {
+            transform.position = new Vector3(-18.3f, transform.position.y, 0);
+        } else if (transform.position.x < -18.4f) {
+            transform.position = new Vector3(18.3f, transform.position.y, 0);
+        } else {
+            transform.position +=  movement * Time.deltaTime * speed;
+        }
     }
 
     void jump(){
@@ -55,6 +82,10 @@ public class PlayerScript : MonoBehaviour
             animator.SetBool("jumping", false);
         }
 
+        if (!isJumping && !doubleJump) {
+            doubleJump = true;
+        }
+
         if(Input.GetKeyDown(KeyCode.W)){
             if(!isJumping){
                 rb2D.AddForce(Vector2.up * 12, ForceMode2D.Impulse);
@@ -63,7 +94,7 @@ public class PlayerScript : MonoBehaviour
                 if(doubleJump){
                     rb2D.AddForce(Vector2.up * 12, ForceMode2D.Impulse);
                     doubleJump = false;
-                } 
+                }
             }
         }
     }

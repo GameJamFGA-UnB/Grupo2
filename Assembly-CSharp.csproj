@@ -38,6 +38,7 @@
   <ItemGroup>
      <Compile Include="Assets\PlayerScript.cs" />
      <Compile Include="Assets\EnemyScript.cs" />
+     <Compile Include="Assets\Cake.cs" />
     <Reference Include="UnityEngine">
         <HintPath>D:\Programas\Unity Hub\Editor\2021.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
