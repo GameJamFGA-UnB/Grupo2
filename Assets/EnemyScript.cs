@@ -1,19 +1,28 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-
 
 public class EnemyScript : MonoBehaviour
 {
-    private Rigidbody2D rb2D;
-    // Start is called before the first frame update
+    private float speed = 3;
+    private bool dirRight = true;
+    private float timer;
+    private float moveTime = 2;
+
     void Start()
     {
-        rb2D = GetComponent<Rigidbody2D>();
+    //    rb2D = GetComponent<Rigidbody2D>();
     }
-    // Update is called once per frame
     void Update()
     {
+        if(dirRight)
+            transform.Translate(Vector2.right * speed * Time.deltaTime);
+        else
+            transform.Translate(Vector2.left * speed * Time.deltaTime);
         
+        timer += Time.deltaTime;
+
+        if(timer >= moveTime){
+            dirRight = !dirRight;
+            timer = 0f;
+        }
     }
 }
