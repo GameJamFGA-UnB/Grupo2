@@ -7,13 +7,14 @@ public class PlayerScript : MonoBehaviour
     private Rigidbody2D rb2D;
     private Animator animator;
     private SpriteRenderer renderer;
-    private int speed = 10;
-
-    private int cakeSpeed = 20;
+    private GameObject cake;
     private bool isJumping = false;
     private bool doubleJump = false;
 
-    private GameObject cake;
+    public int speed = 10;
+    public int jumpForce = 15;
+    public int cakeSpeed = 20;
+    public Vector2 spawnPosition;
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +23,7 @@ public class PlayerScript : MonoBehaviour
         animator = GetComponent<Animator>();
         renderer = GetComponent<SpriteRenderer>();
         cake = GameObject.Find("Cake");
+        transform.position = spawnPosition;
     }
 
     // Update is called once per frame
@@ -29,14 +31,14 @@ public class PlayerScript : MonoBehaviour
     {
         move();
         jump();
-        spawnCake();
+        SpawnCake();
     }
 
     void FixedUpdate() {
-        dieOutOfBounds();
+        CheckOutOfBounds();
     }
 
-    void spawnCake() {
+    void SpawnCake() {
         if (Input.GetKeyDown(KeyCode.Space)) {
             Vector3 cakePos = new Vector3(0.3f, 0, 0);
             Vector2 cakeVel = new Vector2(cakeSpeed, 0);
@@ -64,10 +66,10 @@ public class PlayerScript : MonoBehaviour
             renderer.flipX = true;
         }
 
-        if (transform.position.x > 18.4f) {
-            transform.position = new Vector3(-18.3f, transform.position.y, 0);
-        } else if (transform.position.x < -18.4f) {
-            transform.position = new Vector3(18.3f, transform.position.y, 0);
+        if (transform.position.x > 28f) {
+            transform.position = new Vector3(-27.9f, transform.position.y, 0);
+        } else if (transform.position.x < -28f) {
+            transform.position = new Vector3(27.9f, transform.position.y, 0);
         } else {
             transform.position +=  movement * Time.deltaTime * speed;
         }
@@ -88,22 +90,32 @@ public class PlayerScript : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.W)){
             if(!isJumping){
-                rb2D.AddForce(Vector2.up * 12, ForceMode2D.Impulse);
+                rb2D.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
                 doubleJump = true;
             }else{
                 if(doubleJump){
-                    rb2D.AddForce(Vector2.up * 12, ForceMode2D.Impulse);
+                    rb2D.velocity = new Vector2(rb2D.velocity.x, 0);
+                    rb2D.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
                     doubleJump = false;
                 }
             }
         }
     }
 
-    void dieOutOfBounds() {
-        if (transform.position.y < -9.5) {
-            transform.position = new Vector3(-4.455f, -2.421f, 0);
+    void CheckOutOfBounds() {
+        if (transform.position.y < -13) {
+            KillPlayer();
         }
     }
 
+    void OnCollisionEnter2D(Collision2D collision) {
+        if (collision.gameObject.tag == "Enemy") {
+            KillPlayer();
+        }
+    }
+
+    void KillPlayer() {
+        transform.position = spawnPosition;
+    }
 
 }

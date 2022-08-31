@@ -13,8 +13,9 @@ public class Cake : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.x > 21 || transform.position.x < -21) {
+        if (transform.position.x > 28 || transform.position.x < -28) {
             Destroy(gameObject);
         }
     }
+
 }
