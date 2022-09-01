@@ -9,6 +9,7 @@ public class PlayerScript : MonoBehaviour
     private SpriteRenderer renderer;
     private GameObject cake;
     private AudioSource audioSource;
+    private Collider2D groundCollider;
     private bool isJumping = false;
     private bool doubleJump = false;
 
@@ -22,6 +23,7 @@ public class PlayerScript : MonoBehaviour
     public int jumpForce = 15;
     public int cakeSpeed = 20;
     public Vector2 spawnPosition;
+    public bool activeSounds = false;
 
     // Start is called before the first frame update
     void Start()
@@ -30,6 +32,7 @@ public class PlayerScript : MonoBehaviour
         animator = GetComponent<Animator>();
         renderer = GetComponent<SpriteRenderer>();
         audioSource = GetComponent<AudioSource>();
+        groundCollider = GameObject.Find("Ground").GetComponent<Collider2D>();
         cake = GameObject.Find("Cake");
         transform.position = spawnPosition;
     }
@@ -87,6 +90,7 @@ public class PlayerScript : MonoBehaviour
 
     void jump(){
         isJumping = !rb2D.IsTouchingLayers();
+        isJumping = !rb2D.IsTouching(groundCollider);
 
         if (isJumping && !animator.GetBool("jumping")) {
             animator.SetBool("jumping", true);
@@ -130,7 +134,7 @@ public class PlayerScript : MonoBehaviour
     }
 
     void PlayRandomSound(List<AudioClip> list) {
-        if (list.Count > 0) {
+        if (list.Count > 0 && activeSounds) {
             audioSource.Stop();
             AudioClip selected = list[Random.Range(0, list.Count)];
             audioSource.clip = selected;
