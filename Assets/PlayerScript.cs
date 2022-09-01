@@ -66,10 +66,10 @@ public class PlayerScript : MonoBehaviour
             renderer.flipX = true;
         }
 
-        if (transform.position.x > 28f) {
-            transform.position = new Vector3(-27.9f, transform.position.y, 0);
-        } else if (transform.position.x < -28f) {
-            transform.position = new Vector3(27.9f, transform.position.y, 0);
+        if (transform.position.x > 34f) {
+            transform.position = new Vector3(-34f, transform.position.y, 0);
+        } else if (transform.position.x < -34f) {
+            transform.position = new Vector3(34f, transform.position.y, 0);
         } else {
             transform.position +=  movement * Time.deltaTime * speed;
         }
@@ -103,7 +103,7 @@ public class PlayerScript : MonoBehaviour
     }
 
     void CheckOutOfBounds() {
-        if (transform.position.y < -13) {
+        if (transform.position.y < -15) {
             KillPlayer();
         }
     }

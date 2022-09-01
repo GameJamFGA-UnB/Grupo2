@@ -31,8 +31,11 @@ public class Game : MonoBehaviour
     }
 
     void SpawnEnemy() {
-        GameObject newEnemy = Instantiate(enemy, new Vector3(0,0,0), enemy.transform.rotation);
+        GameObject newEnemy = Instantiate(enemy, new Vector3(27,6f,0), enemy.transform.rotation);
+        GameObject newEnemy2 = Instantiate(enemy, new Vector3(-28,3.5f,0), enemy.transform.rotation);
         newEnemy.GetComponent<EnemyScript>().stopped = false;
+        newEnemy2.GetComponent<EnemyScript>().stopped = false;
         enemyList.Add(newEnemy);
+        enemyList.Add(newEnemy2);
     }
 }

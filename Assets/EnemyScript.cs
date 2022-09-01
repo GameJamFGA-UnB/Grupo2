@@ -3,8 +3,6 @@ using UnityEngine;
 public class EnemyScript : MonoBehaviour
 {
     public float speed = 5;
-    // private float timer;
-    // public float moveTime = 2;
     public float health = 10;
     public int jumpForce = 30;
     public bool stopped = false;
@@ -32,14 +30,6 @@ public class EnemyScript : MonoBehaviour
             }
         }
 
-        
-        // timer += Time.deltaTime;
-
-        // if(timer >= moveTime){
-        //     dirRight = !dirRight;
-        //     renderer.flipX = !renderer.flipX;
-        //     timer = 0f;
-        // }
     }
 
     void OnTriggerEnter2D(Collider2D collider) {
