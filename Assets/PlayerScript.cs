@@ -8,9 +8,16 @@ public class PlayerScript : MonoBehaviour
     private Animator animator;
     private SpriteRenderer renderer;
     private GameObject cake;
+    private AudioSource audioSource;
     private bool isJumping = false;
     private bool doubleJump = false;
 
+    
+    public List<AudioClip> winSounds;
+
+    public List<AudioClip> deathSounds;
+
+    public List<AudioClip> fireSounds;
     public int speed = 10;
     public int jumpForce = 15;
     public int cakeSpeed = 20;
@@ -22,6 +29,7 @@ public class PlayerScript : MonoBehaviour
         rb2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         renderer = GetComponent<SpriteRenderer>();
+        audioSource = GetComponent<AudioSource>();
         cake = GameObject.Find("Cake");
         transform.position = spawnPosition;
     }
@@ -49,6 +57,8 @@ public class PlayerScript : MonoBehaviour
 
             GameObject ck = Instantiate(cake, transform.position + cakePos, cake.transform.rotation);
             ck.GetComponent<Rigidbody2D>().velocity = cakeVel;
+
+            PlayRandomSound(fireSounds);
         }
     }
 
@@ -116,6 +126,16 @@ public class PlayerScript : MonoBehaviour
 
     void KillPlayer() {
         transform.position = spawnPosition;
+        PlayRandomSound(deathSounds);
+    }
+
+    void PlayRandomSound(List<AudioClip> list) {
+        if (list.Count > 0) {
+            audioSource.Stop();
+            AudioClip selected = list[Random.Range(0, list.Count)];
+            audioSource.clip = selected;
+            audioSource.Play();
+        }
     }
 
 }
