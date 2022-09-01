@@ -28,14 +28,24 @@ public class Game : MonoBehaviour
             }
             timer = 0f;
         }
+
+        foreach (GameObject enemy in enemyList) {
+            if (enemy.transform.position.y < -16) {
+                enemyList.Remove(enemy);
+                Destroy(enemy);
+            }
+        }
     }
 
     void SpawnEnemy() {
-        GameObject newEnemy = Instantiate(enemy, new Vector3(27,6f,0), enemy.transform.rotation);
-        GameObject newEnemy2 = Instantiate(enemy, new Vector3(-28,3.5f,0), enemy.transform.rotation);
+        Vector3 pos;
+        if (Random.Range(0, 2) == 0) {
+            pos = new Vector3(27.95f, 8.04f, 0);
+        } else {
+            pos = new Vector3(-28.38f, 1.94f, 0);
+        }
+        GameObject newEnemy = Instantiate(enemy, pos, enemy.transform.rotation);
         newEnemy.GetComponent<EnemyScript>().stopped = false;
-        newEnemy2.GetComponent<EnemyScript>().stopped = false;
         enemyList.Add(newEnemy);
-        enemyList.Add(newEnemy2);
     }
 }
