@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class EnemyScript : MonoBehaviour
 {
@@ -7,7 +8,8 @@ public class EnemyScript : MonoBehaviour
     public int jumpForce = 30;
     public bool stopped = false;
 
-    private bool dirRight = true;
+    private bool zombieMode = false;
+    private Vector3 zombieDir;
     private SpriteRenderer renderer;
     private GameObject player;
     private Rigidbody2D rb2D;
@@ -20,7 +22,15 @@ public class EnemyScript : MonoBehaviour
     }
     void Update()
     {
-        if (!stopped) {
+        if (!stopped && !zombieMode) {
+            if (Mathf.Abs(transform.position.x - player.transform.position.x) < 1.5f
+                && Mathf.Abs(transform.position.y - player.transform.position.y) > 5f) {
+                zombieMode = true;
+                zombieDir = Random.Range(0, 2) == 0 ? Vector3.left : Vector3.right;
+                renderer.flipX = !(zombieDir.x > 0);
+                // print("is zombie w/ " + Mathf.Abs(transform.position.x - player.transform.position.x));
+            }
+
             if(transform.position.x < player.transform.position.x) {
                 transform.Translate(Vector2.right * speed * Time.deltaTime);
                 renderer.flipX = false;
@@ -28,6 +38,8 @@ public class EnemyScript : MonoBehaviour
                 transform.Translate(Vector2.left * speed * Time.deltaTime);
                 renderer.flipX = true;
             }
+        } else if (zombieMode) {
+            transform.Translate(zombieDir * speed * Time.deltaTime);
         }
 
     }
@@ -40,6 +52,20 @@ public class EnemyScript : MonoBehaviour
             if (transform.position.y < player.transform.position.y) {
                 Jump();
             }
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D collider) {
+        if (collider.tag == "EnemyJump" && zombieMode) {
+            zombieMode = false;
+            transform.Translate(zombieDir * speed * 2 * Time.deltaTime);
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D collision) {
+        if (collision.gameObject.tag == "Enemy") {
+            Physics2D.IgnoreCollision(collision.gameObject.GetComponent<Collider2D>(), 
+                gameObject.GetComponent<Collider2D>());
         }
     }
 
