@@ -8,7 +8,7 @@ public class Game : MonoBehaviour
     private List<GameObject> enemyList;
     private float timer = 0;
 
-    public int enemySpawnTimer = 3;
+    public int enemySpawnTimer = 1;
     public int maxEnemies = 0;
 
     void Start()
@@ -25,15 +25,16 @@ public class Game : MonoBehaviour
             if (enemyList.Count < maxEnemies) {
                 SpawnEnemy();
             }
+             SpawnEnemy();
             timer = 0f;
         }
 
-        foreach (GameObject enemy in enemyList) {
+     /*   foreach (GameObject enemy in enemyList) {
             if (enemy.transform.position.y < -16) {                
                 enemyList.Remove(enemy);
                 Destroy(enemy);                
             }
-        }
+        }*/
     }
 
     void SpawnEnemy() {

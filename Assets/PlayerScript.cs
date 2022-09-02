@@ -26,7 +26,7 @@ public class PlayerScript : MonoBehaviour
     public int jumpForce = 15;
     public int cakeSpeed = 20;
     public Vector2 spawnPosition;
-    public bool activeSounds = false;
+    public bool activeSounds = true;
     public int lifes = 3;
     
 
