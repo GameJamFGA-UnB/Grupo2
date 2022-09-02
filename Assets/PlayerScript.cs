@@ -7,23 +7,28 @@ public class PlayerScript : MonoBehaviour
     private Rigidbody2D rb2D;
     private Animator animator;
     private SpriteRenderer renderer;
-    private GameObject cake;
     private AudioSource audioSource;
     private Collider2D groundCollider;
+
+    private GameObject heart;
+    private GameObject heart1;
+    private GameObject heart2;
+
+    private GameObject cake;
+
+    public List<AudioClip> winSounds;
+    public List<AudioClip> deathSounds;
+    public List<AudioClip> fireSounds;
+
     private bool isJumping = false;
     private bool doubleJump = false;
-
-    
-    public List<AudioClip> winSounds;
-
-    public List<AudioClip> deathSounds;
-
-    public List<AudioClip> fireSounds;
     public int speed = 10;
     public int jumpForce = 15;
     public int cakeSpeed = 20;
     public Vector2 spawnPosition;
     public bool activeSounds = false;
+    public int lifes = 3;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -34,6 +39,9 @@ public class PlayerScript : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
         groundCollider = GameObject.Find("Ground").GetComponent<Collider2D>();
         cake = GameObject.Find("Cake");
+        heart = GameObject.Find("Heart");
+        heart1 = GameObject.Find("Heart1");
+        heart2 = GameObject.Find("Heart2");
         transform.position = spawnPosition;
     }
 
@@ -129,8 +137,31 @@ public class PlayerScript : MonoBehaviour
     }
 
     void KillPlayer() {
-        transform.position = spawnPosition;
-        PlayRandomSound(deathSounds);
+        lifes--;
+        print("lifes: " + lifes + "\n");
+        if(lifes>=0){
+            switch(lifes){
+                case 2:
+                    Destroy(heart2);
+                break;
+                case 1:
+                    Destroy(heart1);
+                break;
+                case 0:
+                    Destroy(heart);
+                break;        
+            }           
+
+            transform.position = spawnPosition;     
+            PlayRandomSound(deathSounds);
+        }
+        else{           
+            transform.position = new Vector3(-3.12f, 22.105f, 0);  
+            GameController.instance.ShowGameOver();
+            PlayRandomSound(deathSounds);
+            //print("MORREU!\n");
+        }
+            
     }
 
     void PlayRandomSound(List<AudioClip> list) {

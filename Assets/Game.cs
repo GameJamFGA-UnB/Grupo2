@@ -17,7 +17,6 @@ public class Game : MonoBehaviour
         enemyList = new List<GameObject>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         timer += Time.deltaTime;
@@ -30,9 +29,9 @@ public class Game : MonoBehaviour
         }
 
         foreach (GameObject enemy in enemyList) {
-            if (enemy.transform.position.y < -16) {
+            if (enemy.transform.position.y < -16) {                
                 enemyList.Remove(enemy);
-                Destroy(enemy);
+                Destroy(enemy);                
             }
         }
     }
