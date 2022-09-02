@@ -143,16 +143,19 @@ public class PlayerScript : MonoBehaviour
             switch(lifes){
                 case 2:
                     Destroy(heart2);
+                    transform.position = new Vector3(5f, -0.1f, 0); 
                 break;
                 case 1:
                     Destroy(heart1);
+                    transform.position = new Vector3(-22f, -7.63f, 0); 
                 break;
                 case 0:
                     Destroy(heart);
+                    transform.position = new Vector3(17.74f, -4.63f, 0); 
                 break;        
             }           
 
-            transform.position = spawnPosition;     
+                
             PlayRandomSound(deathSounds);
         }
         else{           
